@@ -1,0 +1,22 @@
+{
+  "name": "rest_node",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Rest API base code develop in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "author": "Andres Chavez <aschavezu@gmail.com>",
+  "license": "",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mysql": "^2.13.0",
+    "require-no-cache": "^0.2.1",
+    "restify": "^4.3.0",
+    "restify-errors": "^4.3.0",
+    "restify-url-semver": "^1.0.1",
+    "sequelize": "^3.30.2"
+  }
+}
